@@ -1,0 +1,27 @@
+{
+  "name": "Repro Expo Router Bugs",
+  "slug": "repro-expo-router-bugs",
+  "owner": "statico",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "plugins": ["expo-router"],
+  "ios": {
+    "bundleIdentifier": "com.statico.reproexporouterbugs"
+  },
+  "android": {
+    "package": "com.statico.reproexporouterbugs"
+  },
+  "expo": {
+    "scheme": "reproexporouterbugs",
+    "extra": {
+      "eas": {
+        "projectId": "694f52d7-4268-40a5-8fdc-cf1a669b0dac"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.statico.reproexporouterbugs"
+    },
+    "owner": "statico",
+    "plugins": ["expo-router"]
+  }
+}

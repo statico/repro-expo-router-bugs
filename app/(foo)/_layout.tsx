@@ -7,12 +7,12 @@ export default function Layout() {
       style={{
         flex: 1,
         margin: 20,
-        borderColor: "darkgreen",
+        borderColor: "darkred",
         borderWidth: 2,
       }}
     >
-      <Text style={{ backgroundColor: "darkgreen", color: "white" }}>
-        (foo)/test/[param1]/[param2]/[param3]/_layout.tsx
+      <Text style={{ backgroundColor: "darkred", color: "white" }}>
+        (foo)/_layout.tsx
       </Text>
       <Slot />
     </View>

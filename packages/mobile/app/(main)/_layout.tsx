@@ -12,7 +12,7 @@ export default function Layout() {
       }}
     >
       <Text style={{ backgroundColor: "darkred", color: "white" }}>
-        (foo)/_layout.tsx
+        packages/mobile/app/(main)/_layout.tsx
       </Text>
       <Slot />
     </View>

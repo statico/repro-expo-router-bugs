@@ -6,9 +6,6 @@ export default function Page() {
   return (
     <View style={{ flex: 1, padding: 20 }}>
       <Text>Got params: {JSON.stringify(params)}</Text>
-      <Link href="./other" asChild>
-        <Button title="Go to other page (relative)" />
-      </Link>
       <Link href="/" asChild>
         <Button title="Go home" />
       </Link>

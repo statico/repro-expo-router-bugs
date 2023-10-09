@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <View style={{ flex: 1, padding: 20 }}>
       <Text>This is the index page with no group or layout.</Text>
-      <Link href="/test/a/b/c/details" asChild>
+      <Link href="/test/aaaaa/bbbbbb/ccccccc/details" asChild>
         <Button title="Test 1" />
       </Link>
       <Link href="/test/new" asChild>

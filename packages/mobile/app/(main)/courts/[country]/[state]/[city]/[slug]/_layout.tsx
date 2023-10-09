@@ -12,7 +12,7 @@ export default function Layout() {
       }}
     >
       <Text style={{ backgroundColor: "darkgreen", color: "white" }}>
-        (foo)/test/[param1]/[param2]/[param3]/_layout.tsx
+        packages/mobile/app/(main)/courts/[country]/[state]/[city]/[slug]/_layout.tsx
       </Text>
       <Slot />
     </View>
